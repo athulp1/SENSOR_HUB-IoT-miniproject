@@ -55,3 +55,8 @@ Above Circuit image is just for reference.
 ## Results
 The desired objective has been successfully achieved: the Sensor Hub's envisioned product now accurately presents temperature and humidity readings, as well as air quality (pollution) levels and light intensity. Moreover, all this valuable data is securely stored in the cloud, ensuring accessibility and reliability for users.
 
+![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/results'.png)
+
+## Contact
+For any inquiries or issues, please contact Sunil Kanaki at athulpujari96@gmail.com
+
