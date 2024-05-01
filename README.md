@@ -22,18 +22,17 @@ Proactive Environmental Management:
 Timely data collection and analysis enable proactive strategies for environmental management, facilitating prompt responses to changing conditions and potential hazards.
 
 ## Hardware Design
-- Modular Configuration:
-Breadboard setup incorporating DHT11, MQ5, LDR sensors, and ESP32 microcontroller for a compact and versatile environmental monitoring system.
-- Diverse Sensor Capabilities:
-DHT11 sensor for monitoring temperature and humidity levels with precision.
-MQ5 sensor detecting various gas concentrations, aiding in pollution detection.
-LDR sensor accurately measuring ambient light levels for environmental assessment.
-- Central Processing:
-ESP32 microcontroller serves as the central processing unit, managing sensor data acquisition and communication.
-- Real-Time Monitoring:
-Facilitation of real-time monitoring of temperature, humidity, gas concentrations, and light intensity, offering immediate insights into environmental conditions.
-- Flexible Prototyping:
-Breadboard setup allows for easy prototyping and testing of the sensor module before deployment, ensuring functionality and reliability in real-world applications.
+-	Connect Sensors to ESP32: - Plug in temperature, humidity, pollution, and light level sensors to the ESP32 board and connect it to them
+- Write Code to Read Data: - Using Arduino to tell ESP32 how to read information from each sensor
+- Send Data to Cloud: - In your Arduino code, add instructions to send the recorded sensor data to your firebase cloud account
+- Cloud Stores Your Data: - The google firebase cloud will store your data in a safe digital space
 
 ![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/a1.png)
+
+Above Circuit image is just for reference.
+
+## Arduino Code Setup
+
+1. Install the Arduino IDE and required libraries.
+2. Open the Arduino IDE and upload the provided SmartGlow_ESP8266.ino sketch to your NodeMCU ESP32.
 
