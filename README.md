@@ -21,6 +21,18 @@ Continuous monitoring of environmental parameters in real-time, providing instan
 Proactive Environmental Management:
 Timely data collection and analysis enable proactive strategies for environmental management, facilitating prompt responses to changing conditions and potential hazards.
 
+## Flowchart
+![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/a2.png)
+
+- The flowchart illustrates the process of data collection and transmission in our project. Starting with the ESP32 microcontroller, which serves as the central hub, data is gathered from three sensors: MQ5 for air quality, DHT11 for temperature and humidity, and LDR for light levels.
+
+- Each sensor provides specific environmental data: MQ5 measures air quality, DHT11 monitors temperature and humidity, while LDR gauges light intensity.
+
+- These sensor readings are then communicated to the Serial Monitor for real-time observation and debugging if needed. Simultaneously, the data is transmitted to Google Firebase for secure storage and further analysis.
+
+- This flowchart showcases the seamless flow of data from sensors to the ESP32, and then onwards to both the Serial Monitor and Google Firebase, ensuring efficient monitoring and management of environmental conditions.
+
+
 ## Hardware Design
 -	Connect Sensors to ESP32: - Plug in temperature, humidity, pollution, and light level sensors to the ESP32 board and connect it to them
 - Write Code to Read Data: - Using Arduino to tell ESP32 how to read information from each sensor
@@ -31,7 +43,7 @@ Timely data collection and analysis enable proactive strategies for environmenta
 
 Above Circuit image is just for reference.
 
-## Flowchart
+
 
 
 
@@ -39,4 +51,7 @@ Above Circuit image is just for reference.
 
 1. Install the Arduino IDE and required libraries.
 2. Open the Arduino IDE and upload the provided SmartGlow_ESP8266.ino sketch to your NodeMCU ESP32.
+
+## Results
+The desired objective has been successfully achieved: the Sensor Hub's envisioned product now accurately presents temperature and humidity readings, as well as air quality (pollution) levels and light intensity. Moreover, all this valuable data is securely stored in the cloud, ensuring accessibility and reliability for users.
 
