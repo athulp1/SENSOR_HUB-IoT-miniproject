@@ -35,5 +35,5 @@ Facilitation of real-time monitoring of temperature, humidity, gas concentration
 - Flexible Prototyping:
 Breadboard setup allows for easy prototyping and testing of the sensor module before deployment, ensuring functionality and reliability in real-world applications.
 
-![Refernce Circuit](https://github.com/sunilkanaki17/SmartGlow-IoT-miniproject/blob/main/Reference%20circuit.png)
+![Refernce Circuit](https://github.com/athulp1/SENSOR_HUB-IoT-miniproject/blob/main/a1.png)
 
