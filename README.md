@@ -31,6 +31,10 @@ Timely data collection and analysis enable proactive strategies for environmenta
 
 Above Circuit image is just for reference.
 
+## Flowchart
+
+
+
 ## Arduino Code Setup
 
 1. Install the Arduino IDE and required libraries.
